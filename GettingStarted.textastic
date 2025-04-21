@@ -1,38 +1,54 @@
-# Erste Schritte #
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Persönliche Seite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
 
-Gehen Sie zur Liste der Dateien und tippen Sie auf den (?)-Button, um auf das Online-Handbuch zuzugreifen.
+<header>
+    <h1>Willkommen auf meiner persönlichen Website</h1>
+</header>
 
-# Wie öffne ich meine Dateien mit Textastic? #
+<main>
+    <h2>Über mich</h2>
 
-Textastic unterstützt verschiedene Methoden, um Ihre Dateien zu importieren:
+</main>
 
-* Dateiübertragung mit den eingebauten FTP(S)-, SFTP-, WebDAV-, und Dropbox-Clients
-* iCloud Drive
-* "+"-Button antippen und "Importieren" auswählen
-* Hinzufügen von Ordnern aus der Dateien-App als externe Ordner
-* Indem Sie "Öffnen In" in anderen Apps verwenden
-* Über WLAN mit dem eingebauten WebDAV-Server
+<footer>
+    <p>© 2025 Max Mustermann</p>
+</footer>
 
-# Was sind die wichtigsten Features von Textastic? #
-
-* Unterstützt Syntax-Highlighting für viele Sprachen:  
-  HTML, XML, Objective-C, C++, C#, PHP, Perl, Python, SQL, JavaScript, CSS, Shell-Skripte u.v.m.
-* Code-Vervollständigung für HTML, CSS und PHP-Funktionen
-* Öffnen von mehreren Dateien in Tabs
-* SSH-Terminal-Verbindungen
-* Suchen und Ersetzen mit regulären Ausdrücken
-* In mehreren Dateien suchen
-* Volle Unterstützung für externe Tastaturen und Maus/Trackpad
-* Symbol-Liste für die schnelle Navigation innerhalb einer Datei
-* Virtuelle Tastatur-Leiste mit Sonderzeichen erweitert
-* Cursor kann über Wisch-Gesten bewegt werden
-* Verschiedene Zeichenkodierungen wie UTF-8, ISO-8859-1 oder MacRoman
-* Unterstützt verschiedene Tab-Breiten und Soft-Tabs (Leerzeichen statt Tabs)
-* Verschiedene Schriftarten, Schriftgrößen und Themes
-* Web-Vorschau für HTML- und Markdown-Dateien
-* Versenden von HTML und Markdown als E-Mail
-* Split View- und Slide Over-Multitasking auf dem iPad
-* Git-Repositories aus der Git-Client-App Working Copy können als externe Ordner in Textastic geöffnet werden
-* Emmet-Unterstützung
-* JavaScript-Konsole
-* Dark Mode
+</body>
+</html>
